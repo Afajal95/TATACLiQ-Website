@@ -12,7 +12,7 @@ export const initialState ={
                     ...state,
                     basket: [...state.basket, action.item]
                 };
-                break;
+                
                 case 'REMOVE_FROM_BASKET':
                     //Logic for Removing item from basket
                     return { state };
